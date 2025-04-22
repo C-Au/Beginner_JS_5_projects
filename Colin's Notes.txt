@@ -1,0 +1,9 @@
+Colin's Notes:
+
+Tim's video:
+https://youtu.be/kZMwrXyxQYE?si=CG9PKIk6lAEF9LcY&t=114
+Stopped at 41 min
+
+
+How to run with Node.js:
+node Project_1.js
