@@ -13,8 +13,8 @@ if (shouldweplay.toLowerCase() === "yes") {
   );
   if (leftOrRight === "left") {
     console.log("You go left & see a bridge...");
-    const cross = prompt("Do you want to cross the bridge? ");
-    if (cross.toLowerCase() === "yes") {
+    const cross = prompt("Do you want to cross the bridge? ").toLowerCase();
+    if (cross === "yes" || cross === "y" || cross === "okay") {
       console.log(
         "You've crossed the bridge, but the bridge was weak & the bridge broke. You then fell off the bridge. You lost the game. :("
       );
