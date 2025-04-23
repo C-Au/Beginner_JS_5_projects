@@ -1,8 +1,8 @@
 Colin's Notes:
 
 Tim's video:
-https://youtu.be/kZMwrXyxQYE?si=CG9PKIk6lAEF9LcY&t=114
-Stopped at 41 min
+https://youtu.be/kZMwrXyxQYE?si=50oQ5l0-gE4JDdme&t=3050
+Stopped at 50 min
 
 
 How to run with Node.js:
