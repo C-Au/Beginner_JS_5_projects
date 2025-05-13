@@ -26,6 +26,5 @@ switch (operator) {
     valid = false;
     break;
 }
-
+ 
 if (valid) console.log(number1, operator, number2, "=", result);
-
