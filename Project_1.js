@@ -1,4 +1,5 @@
 // Project #1: Choose your own adventure game
+// https://youtu.be/kZMwrXyxQYE?si=1gw5TUQ-W0Pd9I6x
 const prompt = require("prompt-sync")();
 const name = prompt("What is your name, please? ");
 console.log("Hello,", name, "welcome to the game!");
