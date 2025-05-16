@@ -2,26 +2,28 @@
 // https://youtu.be/kZMwrXyxQYE?si=1gw5TUQ-W0Pd9I6x
 const prompt = require("prompt-sync")();
 
-let number1;
-let number2;
+/**
+ * Prompts the user to enter a number with the specified label.
+ * Repeats the prompt until a valid number is entered.
+ * @param {string} numberString - The label to display in the prompt.
+ * @returns {number} - The number entered by the user.
+ */
 
-while (true) {
-  number1 = parseFloat(prompt("Please enter Number 1: "));
-  if (isNaN(number1)) {
-    console.log("Invalid input");
-  } else {
-    break;
+function getNumber(numberString) {
+  while (true) {
+    const number = parseFloat(
+      prompt("Please enter number" + numberString + ": ")
+    );
+    if (isNaN(number)) {
+      console.log("Invalid input");
+    } else {
+      return number;
+    }
   }
 }
 
-while (true) {
-  number2 = parseFloat(prompt("Please enter Number 2: "));
-  if (isNaN(number2)) {
-    console.log("Invalid input");
-  } else {
-    break;
-  }
-}
+const number1 = getNumber("One");
+const number2 = getNumber("Two");
 
 const operator = prompt("Enter Sign: ");
 
