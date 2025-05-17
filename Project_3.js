@@ -3,3 +3,6 @@
 
 const prompt = require("prompt-sync")()
 
+function printInfo(){
+    console.log("Contact Management System")
+}
